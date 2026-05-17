@@ -4,13 +4,37 @@ An Android application to manage and track plants, view their details, add new p
 
 ## Screenshots
 
-- Home: `screenshots/home.png`
-- Add Plant / Loading: `screenshots/loadingscreen.png`, `screenshots/addplant.png`
-- Analytics: `screenshots/analytics.png`
-- Impacts: `screenshots/impacts.png`
-- Profile: `screenshots/profile.png`
-- Notifications / Reminder: `screenshots/notification.png`
-- View Plant / Details: `screenshots/viewplant.png`
+> Note: Images will render only after they are uploaded to GitHub under `/screenshots`.
+
+- Home
+
+  <img src="screenshots/home.png" alt="Home" width="260"/>
+
+- Add Plant (Loading)
+
+  <img src="screenshots/loadingscreen.png" alt="Add Plant Loading" width="260"/>
+  <img src="screenshots/addplant.png" alt="Add Plant" width="260"/>
+
+- Analytics
+
+  <img src="screenshots/analytics.png" alt="Analytics" width="260"/>
+
+- Impacts
+
+  <img src="screenshots/impacts.png" alt="Impacts" width="260"/>
+
+- Profile
+
+  <img src="screenshots/profile.png" alt="Profile" width="260"/>
+
+- Notification (Reminder)
+
+  <img src="screenshots/notification.png" alt="Notification" width="260"/>
+
+- View Plant / Details
+
+  <img src="screenshots/viewplant.png" alt="View Plant" width="260"/>
+
 
 ## Features
 
@@ -41,7 +65,12 @@ The app expects a Google Maps API key in `AndroidManifest.xml`:
 
 Replace it with your real API key.
 
+## Author
+
+AADITYA PANDEY
+
 ## License
 
 MIT
+
 

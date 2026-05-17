@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:background="@color/bg">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="🌍 Environmental Impact"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        android:textColor="@color/green"
+        android:layout_marginTop="24dp"
+        android:layout_marginBottom="24dp"/>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="16dp"
+        app:cardElevation="6dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="24dp"
+            android:gravity="center_horizontal">
+
+            <TextView
+                android:id="@+id/trees"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Trees Planted: 0"
+                android:textSize="20sp"
+                android:textColor="@color/black"
+                android:layout_marginBottom="16dp"/>
+
+            <View
+                android:layout_width="60dp"
+                android:layout_height="2dp"
+                android:background="@color/light_green"
+                android:layout_marginBottom="16dp"/>
+
+            <TextView
+                android:id="@+id/co2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Estimated CO₂ Absorption:\n0 kg/year"
+                android:textSize="18sp"
+                android:gravity="center"
+                android:textColor="@color/green"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="*Based on an average of 21kg CO₂ per tree per year"
+                android:textSize="12sp"
+                android:layout_marginTop="24dp"
+                android:alpha="0.6"/>
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>

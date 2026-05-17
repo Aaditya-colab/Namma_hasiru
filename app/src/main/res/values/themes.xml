@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.NammaHasiru" parent="Theme.MaterialComponents.Light.DarkActionBar">
+        <item name="colorPrimary">@color/green</item>
+        <item name="colorPrimaryDark">#003308</item>
+        <item name="colorAccent">@color/light_green</item>
+        <item name="android:windowBackground">@color/bg</item>
+    </style>
+
+    <style name="GreenButton" parent="Widget.MaterialComponents.Button">
+        <item name="android:backgroundTint">@color/light_green</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:insetTop">0dp</item>
+        <item name="android:insetBottom">0dp</item>
+    </style>
+</resources>
